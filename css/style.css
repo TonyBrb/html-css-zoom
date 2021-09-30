@@ -84,6 +84,61 @@ main{
 
 footer{
   width: 100%;
-  height: 70px;
+  height: 50px;
   background-color: #222222;
+  font-size: 14px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
 }
+
+.foot-left{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  width: 8%;
+  text-align: center;
+}
+
+
+.foot-left .fas.fa-chevron-up{
+  position: relative;
+  top: -28px;
+  right: -31px;
+  font-size: 11px;
+}
+
+.foot-centre{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 40%;
+  margin-bottom: 10px;
+}
+
+.video p{
+  font-size: 12px;
+}
+
+.microphone p{
+  font-size: 12px;
+}
+
+.active i{
+  color: #4BC800;
+}
+
+.foot-right{
+  width: 6%;
+  background-color: #4A4A4A;
+  color: red;
+  text-align: center;
+  font-size: 12px;
+  line-height: 60px;
+}
+
+.microphone p{
+  font-size: 12px;
+}
+

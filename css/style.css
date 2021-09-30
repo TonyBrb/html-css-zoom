@@ -3,3 +3,44 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: 'Lato';
+}
+
+header{
+  width: 100%;
+  position: fixed;
+  display: flex;
+  height: 50px;
+  font-size: 13px;
+  background-color: #000;
+  color: white;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.speaker{
+  background-color: #4A4A4A;
+  border-radius: 5px;
+  padding: 5px 3px;
+  height: 25px;
+  margin-right: 7px;
+}
+
+.btn-header{
+  background-color: #4A4A4A;
+  border-radius: 5px;
+  height: 25px;
+  margin-right: 4px;
+  padding: 5px 5px;
+}
+
+.speaker:hover, .btn-header:hover{
+  cursor: pointer;
+}
+
+
+main{
+
+}

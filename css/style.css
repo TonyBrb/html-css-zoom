@@ -17,7 +17,8 @@ header{
   background-color: #000;
   color: white;
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-start;
+  z-index: 999;
 }
 
 .speaker{
@@ -26,6 +27,7 @@ header{
   padding: 5px 3px;
   height: 25px;
   margin-right: 7px;
+  margin-top: 5px;
 }
 
 .btn-header{
@@ -34,6 +36,7 @@ header{
   height: 25px;
   margin-right: 4px;
   padding: 5px 5px;
+  margin-top: 5px;
 }
 
 .speaker:hover, .btn-header:hover{
@@ -42,5 +45,45 @@ header{
 
 
 main{
+  width: 100%;
+  height: calc(100vh - 50px);
+  background-color: #000;
+  overflow: auto;
+}
 
+.container{
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 90px; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  row-gap: 7px;
+}
+
+.image{
+  width: 150px;
+  height: 80px;
+  background-image: url("https://picsum.photos/640/360");
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+
+.image div{
+  background-color: rgba(51, 54, 52, 0.5);
+  width: 90px;
+  height: 17px;
+  font-size: 14px;
+  color: white;
+}
+
+
+
+
+footer{
+  width: 100%;
+  height: 70px;
+  background-color: #222222;
 }
